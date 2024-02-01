@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20240201023137"
+  },
+  "applications": "*",
+  "clientRootFolder": "rostermicrov2",
+  "databaseType": "sql",
+  "entityTableName": "resource_roles",
+  "fields": [],
+  "microserviceName": "rostermicrov2",
+  "name": "ResourceRoles",
+  "relationships": [
+    {
+      "otherEntityField": "key",
+      "otherEntityName": "role",
+      "relationshipName": "role",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "key",
+      "otherEntityName": "resource",
+      "relationshipName": "resource",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
