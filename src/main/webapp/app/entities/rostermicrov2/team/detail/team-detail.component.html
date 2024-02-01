@@ -1,0 +1,34 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    @if (team) {
+      <div>
+        <h2 data-cy="teamDetailsHeading"><span jhiTranslate="rostermicrov2App.rostermicrov2Team.detail.title">Team</span></h2>
+
+        <hr />
+
+        <jhi-alert-error></jhi-alert-error>
+
+        <jhi-alert></jhi-alert>
+
+        <dl class="row-md jh-entity-details">
+          <dt><span jhiTranslate="rostermicrov2App.rostermicrov2Team.key">Key</span></dt>
+          <dd>
+            <span>{{ team.key }}</span>
+          </dd>
+          <dt><span jhiTranslate="rostermicrov2App.rostermicrov2Team.id">Id</span></dt>
+          <dd>
+            <span>{{ team.id }}</span>
+          </dd>
+        </dl>
+
+        <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+          <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+        </button>
+
+        <button type="button" [routerLink]="['/rostermicrov2/team', team.id, 'edit']" class="btn btn-primary">
+          <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+        </button>
+      </div>
+    }
+  </div>
+</div>

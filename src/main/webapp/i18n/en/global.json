@@ -7,7 +7,26 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "rostermicrov2Team": "Team",
+        "rostermicrov2TeamPlan": "Team Plan",
+        "rostermicrov2Resource": "Resource",
+        "rostermicrov2ResourcePlan": "Resource Plan",
+        "rostermicrov2ShiftDemand": "Shift Demand",
+        "rostermicrov2Task": "Task",
+        "rostermicrov2Facility": "Facility",
+        "rostermicrov2ShiftType": "Shift Type",
+        "rostermicrov2RefCalendar": "Ref Calendar",
+        "rostermicrov2ResourceTraining": "Resource Training",
+        "rostermicrov2Training": "Training",
+        "rostermicrov2PositionRequirement": "Position Requirement",
+        "rostermicrov2Position": "Position",
+        "rostermicrov2Department": "Department",
+        "rostermicrov2Shift": "Shift",
+        "rostermicrov2ShiftTemplate": "Shift Template",
+        "rostermicrov2Role": "Role",
+        "rostermicrov2ResourceRoles": "Resource Roles",
+        "rostermicrov2RefRotation": "Ref Rotation"
       },
       "account": {
         "main": "Account",
